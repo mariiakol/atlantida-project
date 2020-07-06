@@ -8,6 +8,12 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 }
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  margin:0 auto;
+  overflow: hidden;
+}
 .row:after, .menu:after{
 	content: "";
 	clear:both;
@@ -92,6 +98,7 @@ body {
 	left: 0;
 	background-color: white;
 	z-index: 10;
+	width: 100%;
 }
 .social-menu{
 	display: flex;
@@ -144,6 +151,7 @@ body {
 #section1{
 	padding: 115px 0;
 	background-image: url("images/Image_post.png");
+	width: 100%;
 }
 .text1{
 	margin-top: 25px;
@@ -171,6 +179,7 @@ body {
 #section2{
 	padding: 75px 0;
 	background-color: #e3e3e3;
+	width: 100%;
 }
 .mar/*gin-right{
 	margin-right: 78px;*/
@@ -553,6 +562,9 @@ input[type="search"] {
 	}
 	.col-md-10{
 		margin-left: 17px;
+	}
+	.wrapper{
+		width: 100%;
 	}
 }
 @media (min-width: 992px) {
