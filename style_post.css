@@ -633,7 +633,8 @@ input[type="search"] {
 	.forma{
 		position: relative;
 		background-color: #e3e3e3;
-		border: 2px solid #b2b2b2;
+		/*border: 2px solid #b2b2b2;*/
+		border: 2px solid black;
 		width: 300px;
 		-webkit-appearance:none;
 	}
