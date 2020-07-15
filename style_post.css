@@ -464,6 +464,7 @@ input[type="search"] {
 	border: 2px solid #b2b2b2;
 	width: 300px;
 	border: none;
+	-webkit-appearance:none;
 }
 .text1-p{
 	font-size: 12px;
