@@ -445,6 +445,7 @@ input[type="search"] {
 	width: 262px;
 	outline: none;
 	-webkit-appearance:none;
+	border-color: transparent;
 }
 .submit-button{
 	position: absolute;
