@@ -769,6 +769,7 @@ input[type="text"], input[type="number"], input[type="email"] {
 	}
 	.tabs li {
 	width: 33%;
+	margin-right: 0px;
 }
 	.nav-mobile-menu{
 		display: block;
