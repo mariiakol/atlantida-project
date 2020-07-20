@@ -173,8 +173,8 @@ body {
 .tabs {
   display: flex;
 }
-.tabs li{
-	margin-right: 5px;
+.tabs li:not(:last-child) {
+  margin-right: 5px;
 }
 .tabs li a {
   display: block;
@@ -769,7 +769,6 @@ input[type="text"], input[type="number"], input[type="email"] {
 	}
 	.tabs li {
 	width: 33%;
-	margin-right: 0px;
 }
 	.nav-mobile-menu{
 		display: block;
