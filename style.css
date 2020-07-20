@@ -161,10 +161,59 @@ body {
 .button:hover{
 	color: black;
 	background-color: white;
+	cursor: pointer;
 }
 #section2{
 	padding: 70px 0;
 	background-color: #e3e3e3;
+}
+.tabs-container {
+  width: 100%;
+}
+.tabs {
+  display: flex;
+}
+.tabs li{
+	margin-right: 5px;
+}
+.tabs li a {
+  display: block;
+  position: relative;
+  top: 4px;
+  padding: 10px 25px;
+  border-radius: 2px 2px 0 0;
+  background: white;
+  opacity: 0.7;
+  transition: all 0.1s ease-in-out;
+  text-decoration: none;
+  color: #3e3d3d;
+}
+
+.tabs li.active a,
+.tabs li a:hover {
+  opacity: 1;
+  top: 0;
+}
+
+.tabs-content {
+  position: relative;
+  z-index: 2;
+  padding: 40px 70px 40px 70px;
+  background: white;
+  line-height: 1.5;
+	font-family: 'Crimson Text', serif;
+}
+
+.tabs-panel {
+  display: none;
+}
+
+.tabs-panel.active {
+  display: block;
+}
+
+.tabs-panel p + div {
+  margin-top: 15px;
 }
 .image{
 	background-image: url("images/image2.png");
@@ -208,7 +257,7 @@ body {
 .btn:hover{
 	color: #3e3d3d;
 	background-color: white;
-
+	cursor: pointer;
 }
 .menu-about{
 	display: flex;
@@ -438,6 +487,7 @@ body {
 .photo:hover .photo-hover{
 	/*transform: scale(0.7);*/
 	display: block;
+	cursor: pointer;
 }
 #section6{
 	padding: 0 0 70px 0;
@@ -489,6 +539,7 @@ body {
 .price-button:hover{
 	color: white;
 	background-color: #3e3d3d;
+	cursor: pointer;
 }
 .image-price{
 	width: 230px;
@@ -543,6 +594,7 @@ body {
 }
 .photo1:hover .blog-hover{
 	display: block;
+	cursor: pointer;
 }
 .date{
 	margin: 30px 0 11px 31px;
@@ -582,6 +634,7 @@ body {
 }
 .photo2:hover .photo3{
 	display: block;
+	cursor: pointer;
 }
 
 #map{
@@ -691,6 +744,7 @@ input[type="text"], input[type="number"], input[type="email"] {
 .submit:hover{
 	color: #464646;
 	background-color:#cacaca;
+	cursor: pointer;
 }
 #menu-toggle{
 	display: none;
@@ -701,6 +755,21 @@ input[type="text"], input[type="number"], input[type="email"] {
 	justify-content: space-around;
 }
 @media (max-width: 767px){
+	.tabs-content {
+      position: relative;
+      z-index: 2;
+      padding: 20px 50px 20px 50px;
+      background: white;
+      line-height: 1.5;
+	  font-family: 'Crimson Text', serif;
+}
+	.tabs{
+		display: flex;
+		justify-content: space-between;
+	}
+	.tabs li {
+	width: 33%;
+}
 	.nav-mobile-menu{
 		display: block;
 		width: 15px;
