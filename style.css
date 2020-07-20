@@ -201,17 +201,15 @@ body {
   padding: 40px 70px 40px 70px;
   background: white;
   line-height: 1.5;
-	font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', serif;
 }
 
 .tabs-panel {
   display: none;
 }
-
 .tabs-panel.active {
   display: block;
 }
-
 .tabs-panel p + div {
   margin-top: 15px;
 }
@@ -758,7 +756,7 @@ input[type="text"], input[type="number"], input[type="email"] {
 	.tabs-content {
       position: relative;
       z-index: 2;
-      padding: 20px 50px 20px 50px;
+      padding: 20px 20px 20px 20px;
       background: white;
       line-height: 1.5;
 	  font-family: 'Crimson Text', serif;
